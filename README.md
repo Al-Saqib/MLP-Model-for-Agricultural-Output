@@ -55,21 +55,21 @@ The dataset used for this project is not included in the repository. Users can d
 2. **Data Merging**:
 - Integrate individual datasets on common keys like country and year.
 
-3. Analysis:
+3. **Analysis**:
 - Train the MLP model using optimised hyperparameters.
 - Evaluate performance using metrics such as MAE, RMSE, and R².
 
 ## Features
 ### Model Setup
-- Architecture: Multilayer Perceptron (MLP) with optimised hidden layers.
-- Activation Function: ReLU for non-linear transformations.
-- Regularisation: L2 penalty to reduce overfitting.
-- Optimiser: Adam for efficient gradient-based optimisation.
+- *Architecture*: Multilayer Perceptron (MLP) with optimised hidden layers.
+- *Activation Function*: ReLU for non-linear transformations.
+- *Regularisation*: L2 penalty to reduce overfitting.
+- *Optimiser*: Adam for efficient gradient-based optimisation.
 
 ### Metrics
-- Mean Absolute Error (MAE)
-- Root Mean Squared Error (RMSE)
-- R² (Coefficient of Determination)
+- ***Mean Absolute Error (MAE)***
+- ***Root Mean Squared Error (RMSE)***
+- ***R² (Coefficient of Determination)***
 
 ## Results
 The MLP model demonstrates high accuracy, achieving an R² score of 0.97 on the validation set.
