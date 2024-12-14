@@ -39,9 +39,9 @@ cd MLP-Model-for-Agricultural-Output
 ```
 
 3. Open the Jupyter notebooks for step-by-step execution:
-   - data_preprocessing.ipynb: Preprocess individual datasets.
-   - data_merge.ipynb: Merge datasets based on common variables (e.g., country, year).
-   - data_analysis.ipynb: Train and evaluate the MLP regression model
+- data_preprocessing.ipynb: Preprocess individual datasets.
+- data_merge.ipynb: Merge datasets based on common variables (e.g., country, year).
+- data_analysis.ipynb: Train and evaluate the MLP regression model
   
 ## Dataset
 The dataset used for this project is not included in the repository. Users can download the necessary data directly from the FAO Statistics website. Ensure that data files are formatted correctly and contain consistent variables (e.g., year, country) before running the notebooks.
@@ -69,7 +69,7 @@ The dataset used for this project is not included in the repository. Users can d
 ### Metrics
 - Mean Absolute Error (MAE)
 - Root Mean Squared Error (RMSE)
-R² (Coefficient of Determination)
+- R² (Coefficient of Determination)
 
 ## Results
 The MLP model demonstrates high accuracy, achieving an R² score of 0.97 on the validation set.
